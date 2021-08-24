@@ -2,7 +2,7 @@
 
 var figlet = require('figlet');
 
-console.log("liev-server running from " + __filename);
+console.log("Here I am, liev-server running from " + __filename);
 
 figlet('Boo!', function (err, data) {
   if (err) {
